@@ -1,0 +1,457 @@
+@media(min-width: 600px) {
+    .background{
+    background-image: url("backgroundimg.jpg");
+    height:100vh;
+    width:400%;
+    background-size:cover;
+}
+body{
+    margin:0;
+}
+.about{
+    width:5vw;
+    height:5vw;
+    /* background-color:black; */
+    position:fixed;
+    top:0;
+    right:0;
+    background-image:url("about.png");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+    color:#0728f4;
+    font-size:3.5vw;
+    text-align:center;
+    font-family:Georgia;
+}
+a{
+    text-decoration:none;
+    color:#0728f4;
+}
+.about-container{
+    position:absolute;
+}
+.pin:hover{
+   
+}
+
+
+.pin{
+    background-image:url("pin.png");
+    width:30px;
+    height:60px;
+    position:relative;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+    opacity:0.75;
+}
+.pin img{
+    width:400px;
+    height:auto;
+    position:absolute;
+    opacity:0;
+    /* top: 120%; */
+    transition: opacity 0.5s;
+    animation: corner 1.5s infinite;
+
+}
+.pin1{
+    top: 120%;
+}
+.pin:hover img{
+opacity:1;
+
+}
+.pin-container{
+    position:absolute;
+    top:29vw;
+    left:20vw;
+}
+
+@keyframes corner{
+    10%{
+        border-radius: 0 50% 0 0
+    }
+    30%{
+        border-radius: 50% 0 50% 0
+    }
+    50%{
+        border-radius: 0 50% 0 50%
+    }
+}
+
+.pin2{
+    top: 120%;
+}
+.pin-container2{
+    position:absolute;
+    top:17vw;
+    left:6vw;
+}
+.pin3{
+    top: 120%;
+}
+.pin-container3{
+    position:absolute;
+    top:31vw;
+    left:35vw;
+}
+.pin4{
+    top: 120%;
+}
+.pin-container4{
+    position:absolute;
+    top:19vw;
+    left:50vw;
+}
+.pin5{
+    top: 120%;
+}
+.pin-container5{
+    position:absolute;
+    top:18vw;
+    left:40vw;
+}
+.pin6{
+    top: 120%;
+}
+.pin-container6{
+    position:absolute;
+    top:8vw;
+    left:50vw;
+}
+.pin7{
+    top: 120%;
+}
+.pin-container7{
+    position:absolute;
+    top:6vw;
+    left:70vw;
+}
+.pin8{
+    top: 120%;
+}
+.pin-container8{
+    position:absolute;
+    top:4vw;
+    left:80vw;
+}
+.pin9{
+    top: 120%;
+}
+.pin-container9{
+    position:absolute;
+    top:7vw;
+    left:15vw;
+}
+.pin10{
+    top: 120%;
+}
+.pin-container10{
+    position:absolute;
+    top:7vw;
+    left:90vw;
+}
+.pin11{
+    top: 120%;
+}
+.pin-container11{
+    position:absolute;
+    top:12vw;
+    left:100vw;
+}
+.pin12{
+    top: 120%;
+}
+.pin-container12{
+    position:absolute;
+    top:21vw;
+    left:110vw;
+}
+.pin13{
+    top: 120%;
+}
+.pin-container13{
+    position:absolute;
+    top:29vw;
+    left:120vw;
+}
+.pin14{
+    top: 120%;
+}
+.pin-container14{
+    position:absolute;
+    top:31vw;
+    left:130vw;
+}
+.pin15{
+    bottom: 120%;
+}
+.pin-container15{
+    position:absolute;
+    top:29vw;
+    left:140vw;
+}
+.pin16{
+    top: 120%;
+}
+.pin-container16{
+    position:absolute;
+    top:21vw;
+    left:150vw;
+}
+.pin17{
+    top: 120%;
+}
+.pin-container17{
+    position:absolute;
+    top:12vw;
+    left:160vw;
+}
+.pin18{
+    top: 120%;
+}
+.pin-container18{
+    position:absolute;
+    top:5vw;
+    left:180vw;
+}
+.pin19{
+    top: 120%;
+}
+.pin-container19{
+    position:absolute;
+    top:10vw;
+    left:190vw;
+}
+.pin20{
+    top: 120%;
+}
+.pin-container20{
+    position:absolute;
+    top:16vw;
+    left:200vw;
+}
+.pin21{
+    top: 120%;
+}
+.pin-container21{
+    position:absolute;
+    top:24vw;
+    left:210vw;
+}
+.pin22{
+    bottom: 120%;
+}
+.pin-container22{
+    position:absolute;
+    top:34vw;
+    left:220vw;
+}
+.pin23{
+    bottom: 120%;
+}
+.pin-container23{
+    position:absolute;
+    top:41vw;
+    left:230vw;
+}
+.pin24{
+    bottom: 120%;
+}
+.pin-container24{
+    position:absolute;
+    top:45vw;
+    left:240vw;
+}
+.pin25{
+    bottom: 120%;
+}
+.pin-container25{
+    position:absolute;
+    top:41vw;
+    left:250vw;
+}
+.pin26{
+    bottom: 120%;
+}
+.pin-container26{
+    position:absolute;
+    top:34vw;
+    left:260vw;
+}
+.pin27{
+    bottom: 120%;
+}
+.pin-container27{
+    position:absolute;
+    top:24vw;
+    left:270vw;
+}
+.pin28{
+    top: 120%;
+}
+.pin-container28{
+    position:absolute;
+    top:12vw;
+    left:295vw;
+}
+.pin29{
+    top: 120%;
+}
+
+.pin-container29{
+    position:absolute;
+    top:18vw;
+    left:300vw;
+}
+.pin30{
+    bottom: 120%;
+}
+
+.pin-container30{
+    position:absolute;
+    top:25vw;
+    left:305vw;
+}
+.pin31{
+    bottom: 120%;
+}
+
+.pin-container31{
+    position:absolute;
+    top:30vw;
+    left:310vw;
+}
+.pin32{
+    bottom: 120%;
+}
+
+.pin-container32{
+    position:absolute;
+    top:35vw;
+    left:315vw;
+}
+.pin33{
+    top: 120%
+}
+
+.pin-container33{
+    position:absolute;
+    top:30vw;
+    left:320vw;
+}
+.pin34{
+    top: 120%;
+}
+
+.pin-container34{
+    position:absolute;
+    top:25vw;
+    left:325vw;
+}
+.pin35{
+    top: 120%;
+}
+
+.pin-container35{
+    position:absolute;
+    top:18vw;
+    left:330vw;
+}
+.pin36{
+    top: 120%;
+}
+
+.pin-container36{
+    position:absolute;
+    top:12vw;
+    left:335vw;
+}
+.pin37{
+    top: 120%;
+}
+
+.pin-container37{
+    position:absolute;
+    top:6vw;
+    left:340vw;
+}
+.pin38{
+    top: 120%;
+}
+.pin-container38{
+    position:absolute;
+    top:3vw;
+    left:348vw;
+}
+.pin39{
+    top: 120%;
+}
+.pin-container39{
+    position:absolute;
+    top:6vw;
+    left:356vw;
+}
+.pin40{
+    top: 120%;
+}
+.pin-container40{
+    position:absolute;
+    top:12vw;
+    left:362vw;
+}
+.pin41{
+    bottom: 120%;
+}
+.pin-container41{
+    position:absolute;
+    top:18vw;
+    left:366vw;
+}
+.pin42{
+    bottom: 120%;
+}
+.pin-container42{
+    position:absolute;
+    top:24vw;
+    left:372vw;
+}
+.pin43{
+    bottom: 120%;
+    right:14vw;
+}
+.pin-container43{
+    position:absolute;
+    top:32vw;
+    left:376vw;
+}
+.pin44{
+    bottom: 120%;
+    right:10vw;
+}
+.pin-container44{
+    position:absolute;
+    top:29vw;
+    left:382vw;
+}
+.pin45{
+    top: 120%;
+    right:14vw;
+}
+.pin-container45{
+    position:absolute;
+    top:22vw;
+    left:385vw;
+}
+@media (max-width: 600px) {
+    .background{
+        background-image: url("backgroundimg2.jpg");
+        height:100vh;
+        width:400%;
+        background-size:cover;
+    }
+}

@@ -1,0 +1,32 @@
+@media(min-width: 600px) {
+    body{
+    font-size:100vw;
+    /* margin:0; */
+    background-color: white;
+    /* margin-top:0;
+    padding:0; */
+}
+
+
+.about1{
+    background-image:url("about1.png");
+    height:100vh;
+    width:100%;
+    background-size:cover;
+}
+.about2{
+    background-image:url("about2.png");
+    height:100vh;
+    width:100%;
+    background-size:cover;
+}
+
+}
+@media (max-width: 600px) {
+    .about1{
+        background-image:url("about1.png");
+        height:100vh;
+        width:600px;
+        background-size:cover;
+    }
+}
